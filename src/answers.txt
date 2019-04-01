@@ -1,0 +1,11 @@
+Answers
+
+2.0
+A component that keeps track of the health display of a character (like the car driving game we built earlier) would need state to optimally update and keep track of the current health of the car.
+
+2.1
+Parent-to-child communication is accomplished by passing down the parent's props to the child. Child-to-parent communication is accomplished by passing in a function defined in the parent function into the props of the child, which allows the child to call the props function.
+
+2.2
+We can add things to the cart by defining addToCart in the Cart and passing it in as a function into each Product component. The Product can pass addToCart into its onClick function and give it its props value so that Cart can check its price, limit and name. Removing items from the cart can be built into the Cart component the same way.
+
